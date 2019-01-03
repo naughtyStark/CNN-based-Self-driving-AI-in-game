@@ -3,4 +3,5 @@ This is an old project of mine that I kept forgetting to upload on github. You c
 
 video links : 
 Second try in 2018 : https://www.youtube.com/watch?v=B-87ePlEG9E
-first try in 2017 : https://www.youtube.com/watch?v=dJcbwkCeyuU
+
+First try in 2017 : https://www.youtube.com/watch?v=dJcbwkCeyuU
