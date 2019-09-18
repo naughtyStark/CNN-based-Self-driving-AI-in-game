@@ -3,16 +3,16 @@ from sidnet import alexnet
 
 WIDTH = 80
 HEIGHT = 60
-LR = 0.001
+LR = 0.0005
 EPOCH = 10
-MODEL_NAME ='SIDNET_-{}-{}-{}-{}-{}.model'.format(LR,'sidnet',EPOCH,'FORZA','throttle')
+MODEL_NAME ='SIDNET_-{}-{}-{}-{}-{}.model'.format(0.001,'sidnet',EPOCH,'FORZA','throttle')
 # MODEL_NAME ='SIDNET_-{}-{}-{}-{}-{}.model'.format(LR,'sidnet',EPOCH,'FORZA','steering')
 
 
 model = alexnet(HEIGHT,WIDTH,LR)
-# model.load(MODEL_NAME)
+model.load(MODEL_NAME)
 
-train_data = np.load('FORZA_160x120_separate.npy')
+train_data = np.load('FORZA_160x120_separate_corners.npy')
 train_data = train_data[0]
 
 train = train_data[:-8000]
